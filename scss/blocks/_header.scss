@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: $green;
+}
+
+.nav-site__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-site__item {
+    margin-left: 53px;
+    margin-right: 52px;
+    flex-wrap: wrap;
+}
+
+.nav-site__link {
+    text-decoration: none;
+    color: $white;
+}
+
+.regestration-content {
+    margin-left: auto;
+    align-items: center;
+}
+
+.button-btn {
+    border: none;
+    background-color: $green;
+}
+
+.regrstration-zoo {
+    text-decoration: none;
+    color: $white;
+    margin-left: 24px;
+}
+
+.regrstration-zoo--up {
+    width: fit-content;
+    padding: 16px 14px;
+    border: 1px solid rgba(197, 225, 229, 1);
+    border-radius: 100px;
+}
