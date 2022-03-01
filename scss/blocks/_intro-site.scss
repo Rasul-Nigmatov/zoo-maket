@@ -1,13 +1,38 @@
 .intro-site {
     padding-top: 103px;
+    padding-bottom: 259px;
     position: relative;
+    z-index: -1;
 
     &::before {
+        position: absolute;
         width: 100%;
         height: 939px;
         display: block;
         background-image: url('../../img/intro-bg.png');
-        content: 21;
+        background-position: center center;
+        background-repeat: no-repeat;
+        top: -75px;
+        left: 0px;
+        content: '';
+    }
+
+    &::after {
+        position: absolute;
+        width: 804px;
+        height: 666px;
+        display: block;
+        border: 2px solid #000;
+        background-image: url(../../img/white-panda.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 50%;
+        top: 0;
+        left: calc((100%-900) / 2);
+        right: 0;
+        bottom: 0;
+
+        content: '';
     }
 }
 
@@ -17,6 +42,8 @@
     font-size: 64px;
     line-height: 85px;
     font-family: $rubik;
+    font-weight: 400;
+    color: rgba(243, 247, 248, 1);
 }
 
 .intro-site__discrip {
@@ -28,11 +55,17 @@
     line-height: 20px;
     font-family: $roboto;
     font-weight: 400;
+    color: rgba(243, 247, 248, 1);
 }
 
 .intro-site__link {
     text-decoration: none;
     padding: 14px 84px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: transparent;
+    color: #000;
+}
+
+.intro-site__animals {
+    font-weight: 500;
 }
