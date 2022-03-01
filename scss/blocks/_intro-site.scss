@@ -1,0 +1,38 @@
+.intro-site {
+    padding-top: 103px;
+    position: relative;
+
+    &::before {
+        width: 100%;
+        height: 939px;
+        display: block;
+        background-image: url('../../img/intro-bg.png');
+        content: 21;
+    }
+}
+
+.intro-site__text {
+    width: 750px;
+    height: 160px;
+    font-size: 64px;
+    line-height: 85px;
+    font-family: $rubik;
+}
+
+.intro-site__discrip {
+    margin-top: 27px;
+    margin-bottom: 87px;
+    width: 480px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $roboto;
+    font-weight: 400;
+}
+
+.intro-site__link {
+    text-decoration: none;
+    padding: 14px 84px;
+    border-radius: 50%;
+    background-color: transparent;
+}
