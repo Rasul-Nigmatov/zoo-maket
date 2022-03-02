@@ -1,7 +1,10 @@
+.header {
+    background-color: $green;
+}
+
 .header-container {
     display: flex;
     align-items: center;
-    background-color: $green;
 }
 
 .nav-site__list {

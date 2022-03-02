@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgba(25, 100, 105, 1);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-zoo__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-zoo__item {
+    margin-right: 52px;
+    flex-wrap: wrap;
+}
+
+.nav-zoo__link {
+    text-decoration: none;
+    color: rgba(197, 225, 229, 1);
+    text-transform: uppercase;
+}
+
+.element-site__text {
+    color: rgba(255, 255, 255, 1);
+    width: fit-content;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+}
