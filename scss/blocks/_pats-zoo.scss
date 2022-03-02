@@ -27,6 +27,19 @@
     border-radius: 100px;
     font-family: $roboto-mono;
     font-weight: 400;
+
+    position: relative;
+
+    &::before    {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        display: block;
+        background-image: url('../../img/hend.svg');
+        top: 16px;
+        left: 26px;
+        content: '';
+    }
 }
 
 .pats-zoo__list {
@@ -34,4 +47,68 @@
     padding: 0px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pats-zoo__item {
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+    &:nth-child(3n) {
+        margin: 0px;
+        margin-top: 20px;
+    }
+}
+
+.pats-zoo__text {
+    width: fit-content;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: $roboto;
+    margin-top: 49px;
+    margin-bottom: 6px;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 400px;
+        height: 2px;
+        display: block;
+        border: 2px solid #000;
+        top: -25px;
+        content: '';
+    }
+}
+
+.pats-zoo__different {
+    width: fit-content;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $roboto;
+    font-weight: 400;
+    color: rgba(144, 144, 144, 0.8);
+
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        display: block;
+        background-image: url('../../img/tv-bg.svg');
+        top: -25px;
+        left: 335px;
+        content: '';
+    }
+}
+
+.pats-zoo__img {
+    display: inline;
+    margin-left: 50px;
 }
