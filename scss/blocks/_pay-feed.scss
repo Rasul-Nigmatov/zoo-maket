@@ -1,0 +1,148 @@
+.pay-feed {
+    padding-bottom: 112px;
+}
+
+.pay-feed__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 564px;
+        display: block;
+        background-image: url('../../img/pay.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        top: -40px;
+        left: 0px;
+        content: '';
+    }
+}
+
+.pay-feed__title {
+    width: fit-content;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: $rubik;
+    font-weight: 400;
+    color: rgba(197, 225, 229, 1);
+}
+
+.pay-feed__link {
+    text-decoration: none;
+    padding: 14px 78px;
+    color: rgba(197, 225, 229, 1);
+    background-color: $tranperent;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: $roboto-mono;
+    font-weight: 400;
+}
+
+.pay-feed__list {
+    margin: 0px;
+    padding: 0px;   
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.pay-feed__item {
+    margin-top: 262px;
+}
+
+.pay-feed__discrip {
+    width: fit-content;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $roboto;
+    font-weight: 400;
+    color: rgba(197, 225, 229, 1);
+
+    position: relative; 
+
+    
+}
+
+.pay-feed__discrip--animals {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-image: url('../../img/money.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        top: -150px;
+        left: 60px;
+        display: block;
+        content: '';
+    }
+    &::after {
+        position: absolute;
+        width: 267px;
+        height: 2px;
+        display: block;
+        border: 1px solid #000;
+        background-image: url('../../img/arrow.svg');
+        top: -81px;
+        left: 255px;
+        content: '';
+    }
+}
+
+.pay-feed__discrip--food {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-image: url('../../img/apply.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        top: -150px;
+        left: 95px;
+        display: block;
+        content: '';
+    }
+
+    &::after {
+        position: absolute;
+        width: 267px;
+        height: 2px;
+        display: block;
+        border: 1px solid #000;
+        background-image: url('../../img/arrow.svg');
+        top: -81px;
+        left: 295px;
+        content: '';
+    }
+}
+
+.pay-feed__discrip--happy {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-image: url('../../img/monkey.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        top: -150px;
+        left: 35px;
+        display: block;
+        content: '';
+    }
+}

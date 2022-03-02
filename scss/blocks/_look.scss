@@ -1,0 +1,31 @@
+.look {
+    padding-bottom: 116px;
+}
+
+.look__discrip {
+    width: fit-content;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: $rubik;
+    font-weight: 400px;
+    color: rgba(13, 68, 77, 1);
+}
+
+.look__list {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 61px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.look__img {
+    border-radius: 50%;
+}
+
+.look__text {
+    text-transform: uppercase;
+    margin-top: 8px;
+}
